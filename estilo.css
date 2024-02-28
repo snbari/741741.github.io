@@ -283,7 +283,297 @@ p.Copyright{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 600px) {
+   
+    body{
+        padding-left: 0;
+        margin: 0;
+    }
+    
+    div.background
+    {
+    width: 250px;
+    height: 250px;
+    }
+    
+    div.transbox
+    {
+    width:300px;
+    height:250px;
+    margin:30px 50px;
+    background-color:#ff0085;
+    border:1px solid black;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+    }
+    
+    div.transbox p
+    {
+    margin:30px 40px;
+    font-weight:bold;
+    color:#000000;
+    }
+    
+    .logotipo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    footer{
+        margin: 100px;
+    }
+    
+    .conatiner-texto{
+        margin: 100;
+    }
+    
+    #footer{
+        background-color: #2e2e2e;
+        color: whitesmoke;
+        width: 100%;
+        height: auto;
+    }
+    
+    #pie-footer{
+        background-color: #000;
+        color: whitesmoke; 
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .pie-footer-1{
+        align-items: center;
+    }
+    
+    .span-subtitulo{
+        color: rgb(244,246,85);
+        font-weight: 600;
+    }
+    
+    .contacto{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 35px;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    
+    .titulo-telefono{
+        color: #fff;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    .titulo-mail{
+        color: #fff;
+        font-size: 15px;
+        text-align: left; 
+        margin-top: 10px;
+    }
+    
+    .titulo-domicilio{
+        color: #fff;
+        font-size: 15px;
+        text-align: left; 
+        margin-top: 10px;
+    }
+    
+    .redes-sociales{
+       color: #fff;
+       margin: 25px;
+    }
+    
+    .horario-a{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 35px;
+        font-weight: 800;
+        text-decoration: underline; 
+    }
+    
+    .hora{
+        color: #fff;
+        font-size: 15px;
+        text-align: left; 
+        margin-top: 10px;
+    }
+    
+    .logo{
+        align-items: center, 10px;
+        width: 125px;
+        height: auto;
+        margin-left: 25px;
+    }
+    
+    .titulo-mapa{
+        text-align: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .btn-whatsapp{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 50px;
+        bottom: 55px;
+        right: 10px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 55px;
+        text-align: center;
+        font-size: 55px;
+        box-shadow: 0pc 1px 10px rgb(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+    
+    .btn-whatsapp:hover{
+        text-decoration: none;
+        color: #0df053;
+        background: #fff;
+    } 
+    
+    
+    
+    .Titulo-principal{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 100px;
+    }
+    
+    .titulo-1{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 100px;
+        padding: 50px;
+        background-color: #8A2BE2;
+        color: #010101;
+        border-style: solid;
+        border-color: rgb(138, 43, 225);
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .titulo-2{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 100px;
+        padding: 50px;
+        background-color: #4169E1;
+        color: #010101;
+        border-style: solid;
+        border-color: rgb(65, 105, 225);
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .titulo-3{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 100px;
+        padding: 50px;
+        background-color: #FF8C00 ;
+        color: #010101;
+        border-style: solid;
+        border-color: rgb(255, 140, 0.1);
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .area{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline;
+        text-align: justify, left;
+      }
+    
+      .perfil{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify, left;
+        color: #010101;
+      }
+    
+      .parrafo-1{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        
+      }
+    
+      h1{
+          text-align: center;
+          text-decoration: underline;
+          margin: 100px;
+      }
+    
+      h2{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline;
+        margin: 100px;
+      }
+    
+      h4{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline;
+        margin: 100px;
+      }
+    
+      p{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        margin:75px;
+      }
+    
+    
+      ul{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        margin: 100px;
+      }
+    
+    .año{
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    .imagenes{
+        margin: 80px;
+        padding: auto;
+        align-items: center;
+    }
+    
+    img{
+        align-items: center;
+        padding: 0px;
+    }
+    
+    .imagen-1{
+        align-items: center;
+        width: 1200px;
+        margin: 100px;
+    }
+    
+    p.Copyright{
+        text-align: center;
+    }
+    
+
+
+  }
+
+
+
+@media only screen and (max-width: 600px) {
    
     body{
         padding-left: 0;
